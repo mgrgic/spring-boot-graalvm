@@ -10,7 +10,7 @@ run:
 	@echo
 	@echo "Compare with"
 	@echo
-	@echo "  time java -cp ../out/production//graalvm-helloworld HelloWorld"
+	@echo "  time java -cp ../out/production//graalvm-helloworld HelloWorld Miki Christoph"
 	@echo
 	@echo "  time ../out/production/graalvm-helloworld/helloworld Miki Christoph"
 	@echo
