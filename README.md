@@ -1,8 +1,9 @@
 # spring-boot-graalvm
 
-export PATH=~/tools/graalvm-ce-java8-19.3.0.2/bin/:$PATH
-export JAVA_HOME=~/tools/graalvm-ce-java8-19.3.0.2/
+## Switch to GraalVM
 
+    export PATH=~/tools/graalvm-ce-java8-19.3.0.2/bin/:$PATH
+    export JAVA_HOME=~/tools/graalvm-ce-java8-19.3.0.2/
 
 ## Compile
 javac HelloWorld.java 
