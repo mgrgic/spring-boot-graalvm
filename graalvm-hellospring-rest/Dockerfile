@@ -1,9 +1,5 @@
-FROM java:8
-#library/amazoncorretto
-# oracle/graalvm-ce:19.3.0.2
-# ubuntu
-# alpine
+FROM ubuntu
 
-COPY de.graalvm.hellospring /app/
+COPY target/hellospring-rest /app/
 
-CMD ["/app/de.graalvm.hellospring"]
+CMD ["/app/hellospring-rest"]
