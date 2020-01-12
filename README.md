@@ -2,8 +2,8 @@
 
 ## Switch to GraalVM
 
-    export PATH=~/tools/graalvm-ce-java8-19.3.0.2/bin/:$PATH
-    export JAVA_HOME=~/tools/graalvm-ce-java8-19.3.0.2/
+    export PATH=~/tools/graalvm-ce-19.2.1/bin/:$PATH
+    export JAVA_HOME=~/tools/graalvm-ce-19.2.1/
 
 ## Compile
 javac HelloWorld.java 

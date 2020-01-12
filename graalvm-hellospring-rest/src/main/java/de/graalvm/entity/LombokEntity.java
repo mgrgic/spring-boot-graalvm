@@ -1,11 +1,13 @@
 package de.graalvm.entity;
 
+import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 
+@AllArgsConstructor
 @Data
 @Builder
-public class Entity {
+public class LombokEntity {
     private String foo;
     private Boolean isBar;
 }

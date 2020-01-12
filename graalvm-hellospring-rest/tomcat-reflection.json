@@ -37,6 +37,84 @@
 { "name":"org.apache.catalina.WebResourceSet" },
 { "name":"org.apache.catalina.Wrapper" },
 { "name":"org.apache.coyote.UpgradeProtocol" },
+
+  {
+    "name" : "de.graalvm.entity.BuilderEntity",
+    "allDeclaredConstructors" : true,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : true,
+    "allPublicMethods" : true,
+    "allDeclaredFields" : true,
+    "allPublicFields" : true
+  },
+  {
+    "name" : "de.graalvm.entity.LombokEntity",
+    "allDeclaredConstructors" : true,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : true,
+    "allPublicMethods" : true,
+    "allDeclaredFields" : true,
+    "allPublicFields" : true
+  },
+  {
+    "name" : "de.graalvm.entity.SimpleEntity",
+    "allDeclaredConstructors" : true,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : true,
+    "allPublicMethods" : true,
+    "allDeclaredFields" : true,
+    "allPublicFields" : true
+  },
+  {
+    "name" : "de.graalvm.entity.SimpleSerializedEntity",
+    "allDeclaredConstructors" : true,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : true,
+    "allPublicMethods" : true,
+    "allDeclaredFields" : true,
+    "allPublicFields" : true
+  },
+  {
+    "name": "com.fasterxml.jackson.databind.ObjectMapper",
+    "allDeclaredFields": true,
+    "allPublicFields": true,
+    "allDeclaredMethods": true,
+    "allPublicMethods": true
+  },
+  { "name":"org.springframework.web.bind.annotation.RequestMethod" },
+
+{ "name": "org.springframework.web.bind.annotation.GetMapping",
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true
+  },
+  {
+    "name": "org.springframework.web.bind.annotation.RequestMapping",
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true
+  },
+  {
+    "name": "org.springframework.web.bind.annotation.PostMapping",
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true
+  },
+  {
+    "name": "org.springframework.web.bind.annotation.ResponseBody",
+    "allDeclaredMethods": true
+  },
+  {
+    "name": "org.springframework.web.bind.annotation.RequestBody",
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true
+  },
+  {
+    "name": "org.springframework.stereotype.Controller",
+    "allDeclaredMethods": true
+  },
+  {
+    "name": "org.springframework.web.bind.annotation.RestController",
+    "allDeclaredMethods": true
+  },
+
 { "name":"com.sun.org.apache.xerces.internal.jaxp.SAXParserFactoryImpl", "methods" : [{"name": "<init>","parameterTypes":[]}] },
 { "name":"com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl", "methods" : [{"name": "<init>","parameterTypes":[]}] },
 { "name":"org.apache.catalina.authenticator.jaspic.AuthConfigFactoryImpl", "methods" : [{"name": "<init>","parameterTypes":[]}] },
