@@ -1,8 +1,5 @@
 package de.graalvm.controller;
 
-import com.fasterxml.jackson.core.JsonProcessingException;
-import com.fasterxml.jackson.databind.ObjectMapper;
-import de.graalvm.entity.BuilderEntity;
 import de.graalvm.entity.LombokEntity;
 import de.graalvm.entity.SimpleEntity;
 import de.graalvm.entity.SimpleSerializedEntity;
@@ -42,11 +39,6 @@ public class HelloWorldController {
         simpleSerializedEntity.setBar(true);
         simpleSerializedEntity.setFoo("foo");
         return ResponseEntity.ok(simpleSerializedEntity);
-    }
-
-    @RequestMapping(value = "/builder", produces = "application/json")
-    public ResponseEntity<BuilderEntity> getBuilder() {
-        return ResponseEntity.ok(BuilderEntity.Builder().withBar(false).withFoo("foo").build());
     }
 
     @RequestMapping(value = "/simplemap", produces = "application/json")

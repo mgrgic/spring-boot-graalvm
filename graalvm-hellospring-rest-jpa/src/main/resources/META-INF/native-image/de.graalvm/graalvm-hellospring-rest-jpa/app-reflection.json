@@ -1,0 +1,46 @@
+[
+  {
+    "name": "de.graalvm.repository.EntityRepository"
+  },
+  {
+    "name": "org.springframework.data.mongodb.repository.MongoRepository"
+  },
+  {
+    "name": "org.springframework.data.repository.Repository"
+  },
+  {
+    "name": "org.springframework.transaction.interceptor.TransactionalProxy"
+  },
+  {
+    "name": "org.springframework.aop.framework.Advised"
+  },
+  {
+    "name": "org.springframework.core.DecoratingProxy"
+  },
+
+  {
+    "name": "de.graalvm.entity.LombokEntity",
+    "allDeclaredConstructors": true,
+    "allPublicConstructors": true,
+    "allDeclaredMethods": true,
+    "allPublicMethods": true,
+    "allDeclaredFields": true,
+    "allPublicFields": true
+  },
+  {
+    "name": "de.graalvm.entity.SimpleEntity",
+    "allDeclaredConstructors": true,
+    "allPublicConstructors": true,
+    "allDeclaredMethods": true,
+    "allPublicMethods": true,
+    "allDeclaredFields": true,
+    "allPublicFields": true
+  },
+  {
+    "name": "com.fasterxml.jackson.databind.ObjectMapper",
+    "allDeclaredFields": true,
+    "allPublicFields": true,
+    "allDeclaredMethods": true,
+    "allPublicMethods": true
+  }
+]
