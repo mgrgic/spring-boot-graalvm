@@ -17,6 +17,9 @@
   {
     "name": "org.springframework.core.DecoratingProxy"
   },
+  {
+    "name": "org.springframework.data.mongodb.core.CursorPreparer"
+  },
 
   {
     "name": "de.graalvm.entity.LombokEntity",
