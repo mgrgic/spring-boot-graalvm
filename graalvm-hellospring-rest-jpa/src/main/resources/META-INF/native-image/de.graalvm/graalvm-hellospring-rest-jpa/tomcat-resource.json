@@ -59,6 +59,13 @@
     {"pattern":".*/mbeans-descriptors.xml$"},
     {"pattern":".*/*.properties$"},
     {"pattern":".*/*.dtd$"},
-    {"pattern":".*/*.xsd$"}
+    {"pattern":".*/*.xsd$"},
+    {"pattern":"org/springframework/data/web/config/ProjectingArgumentResolverRegistrar.class"},
+    {"pattern":"org/springframework/boot/autoconfigure/data/web/SpringDataWebAutoConfiguration.class"},
+    {"pattern":"org/springframework/data/web/config/SpringDataJacksonConfiguration.class"},
+    {"pattern":"org/springframework/data/mongodb/config/GeoJsonConfiguration.class"},
+    {"pattern":"org/springframework/data/web/config/SpringDataJacksonModules.class"},
+    {"pattern":"org/springframework/data/web/config/*.class"},
+    {"pattern":".*/org/springframework/.*/*.class"}
   ]
 }

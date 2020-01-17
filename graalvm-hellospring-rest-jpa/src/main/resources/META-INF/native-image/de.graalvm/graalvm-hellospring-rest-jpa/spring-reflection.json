@@ -18,6 +18,11 @@
     "allDeclaredMethods": true
   },
   {
+    "name": "org.springframework.web.bind.annotation.PutMapping",
+    "allDeclaredConstructors": true,
+    "allDeclaredMethods": true
+  },
+  {
     "name": "org.springframework.web.bind.annotation.ResponseBody",
     "allDeclaredMethods": true
   },
@@ -33,5 +38,8 @@
   {
     "name": "org.springframework.web.bind.annotation.RestController",
     "allDeclaredMethods": true
-  }
+  },
+  { "name": "org.springframework.data.web.config.ProjectingArgumentResolverRegistrar" },
+  { "name": "org.springframework.boot.autoconfigure.data.web.SpringDataWebAutoConfiguration" },
+  { "name": "org.springframework.data.web.config.SpringDataJacksonConfiguration" }
 ]
