@@ -39,7 +39,13 @@
     "name": "org.springframework.web.bind.annotation.RestController",
     "allDeclaredMethods": true
   },
+
   { "name": "org.springframework.data.web.config.ProjectingArgumentResolverRegistrar" },
   { "name": "org.springframework.boot.autoconfigure.data.web.SpringDataWebAutoConfiguration" },
+  { "name": "org.springframework.data.mongodb.core.mapping.MongoMappingContext" },
+  { "name": "org.springframework.data.mongodb.core.convert.MongoCustomConversions" },
+  { "name": "org.springframework.data.web.config.PageableHandlerMethodArgumentResolverCustomizer" },
+  { "name": "org.springframework.data.web.config.SortHandlerMethodArgumentResolverCustomizer" },
+
   { "name": "org.springframework.data.web.config.SpringDataJacksonConfiguration" }
 ]
