@@ -2,15 +2,18 @@
 
 ## Switch to GraalVM
 
-    export PATH=~/tools/graalvm-ce-19.2.1/bin/:$PATH
-    export JAVA_HOME=~/tools/graalvm-ce-19.2.1/
+    export PATH = /path/to/graalvm-ce-19.2.1/bin/:$PATH
+    export JAVA_HOME = /path/to/graalvm-ce-19.2.1/
 
 ## Compile
-javac HelloWorld.java 
+
+    javac HelloWorld.java 
 
 ## Build
-native-image HelloWorld
+
+    native-image HelloWorld
 
 ## Execute
-java Helloworld foo bar
-./helloworld foo bar
+
+    java Helloworld foo bar
+    ./helloworld foo bar
