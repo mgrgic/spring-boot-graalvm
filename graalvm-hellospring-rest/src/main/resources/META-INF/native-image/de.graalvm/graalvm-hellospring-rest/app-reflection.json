@@ -1,14 +1,5 @@
 [
   {
-    "name": "de.graalvm.entity.BuilderEntity",
-    "allDeclaredConstructors": true,
-    "allPublicConstructors": true,
-    "allDeclaredMethods": true,
-    "allPublicMethods": true,
-    "allDeclaredFields": true,
-    "allPublicFields": true
-  },
-  {
     "name": "de.graalvm.entity.LombokEntity",
     "allDeclaredConstructors": true,
     "allPublicConstructors": true,
