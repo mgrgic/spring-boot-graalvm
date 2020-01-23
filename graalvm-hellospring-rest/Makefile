@@ -4,7 +4,7 @@ run:
 	@echo
 	@echo "Start with"
 	@echo
-	@echo "  java -jar target/graalvm-hellospring-rest-1.0.0.jar"
+	@echo "  PORT=8081 java -jar target/graalvm-hellospring-rest-1.0.0.jar"
 	@echo
-	@echo "  target/hellospring-rest"
+	@echo "  PORT=8082 target/hellospring-rest"
 	@echo

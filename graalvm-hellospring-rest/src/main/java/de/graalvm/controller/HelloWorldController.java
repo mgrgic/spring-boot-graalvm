@@ -5,6 +5,7 @@ import de.graalvm.entity.SimpleEntity;
 import de.graalvm.entity.SimpleSerializedEntity;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
@@ -15,12 +16,12 @@ import java.util.Map;
 @RequestMapping(value = "/")
 public class HelloWorldController {
 
-    @RequestMapping(value = "/hello")
+    @GetMapping(value = "/hello")
     public ResponseEntity<String> getWorld() {
         return ResponseEntity.ok().body("world");
     }
 
-    @RequestMapping(value = "/lombok", method = RequestMethod.GET, consumes = "application/json", produces = "application/json")
+    @RequestMapping(value = "/lombok", method = RequestMethod.GET, produces = "application/json")
     public ResponseEntity<LombokEntity> getLombok() {
         return ResponseEntity.ok(LombokEntity.builder().foo("foo").isBar(true).build());
     }
@@ -42,7 +43,7 @@ public class HelloWorldController {
     }
 
     @RequestMapping(value = "/simplemap", produces = "application/json")
-    public ResponseEntity<Map> getMap() {
+    public ResponseEntity<Map> getSimpleMap() {
         Map<Integer, String> map = new HashMap<>();
         map.put(1, "first");
         map.put(2, "second");
@@ -51,7 +52,7 @@ public class HelloWorldController {
     }
 
     @RequestMapping(value = "/map", produces = "application/json")
-    public ResponseEntity<Map> getObject5() {
+    public ResponseEntity<Map> getMap() {
         Map<Integer, SimpleSerializedEntity> map = new HashMap<>();
 
         SimpleSerializedEntity simpleSerializedEntity = new SimpleSerializedEntity();
