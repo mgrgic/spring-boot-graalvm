@@ -10,20 +10,14 @@
   },
   {
     "name": "de.graalvm.entity.SimpleEntity",
-    "allDeclaredConstructors": true,
     "allPublicConstructors": true,
-    "allDeclaredMethods": true,
     "allPublicMethods": true,
-    "allDeclaredFields": true,
     "allPublicFields": true
   },
   {
     "name": "de.graalvm.entity.SimpleSerializedEntity",
-    "allDeclaredConstructors": true,
     "allPublicConstructors": true,
-    "allDeclaredMethods": true,
     "allPublicMethods": true,
-    "allDeclaredFields": true,
     "allPublicFields": true
   },
   {
