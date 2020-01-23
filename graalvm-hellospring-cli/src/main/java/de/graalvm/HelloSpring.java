@@ -4,6 +4,8 @@ import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+import java.util.stream.Stream;
+
 @SpringBootApplication(proxyBeanMethods = false)
 public class HelloSpring implements CommandLineRunner {
 
@@ -16,7 +18,6 @@ public class HelloSpring implements CommandLineRunner {
     @Override
     public void run(String... args) {
         System.out.println("EXECUTING : command line runner");
-
         for (int i = 0; i < args.length; ++i) {
             System.out.println(String.format("args[%s]: %s", i, args[i]));
         }
