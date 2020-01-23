@@ -29,6 +29,7 @@
             <version>4dc925987b</version>
         </dependency>
 
+        <!-- creates a META-INF/spring.components file for defined Beans -->
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-context-indexer</artifactId>
